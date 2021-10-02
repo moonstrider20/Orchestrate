@@ -6,11 +6,11 @@ using TMPro;
 public class Note_Movement : MonoBehaviour
 {
     public bool canBeDestroyed = false;
-    public TextMeshProUGUI SuccessfulText;
+
+    //public Collider2D OtherObject = null;
 
     void Start()
     {
-        SuccessfulText.text = "";
     }
     void FixedUpdate()
     {
@@ -21,24 +21,41 @@ public class Note_Movement : MonoBehaviour
     {
         if (Input.GetButtonDown("Tap") && canBeDestroyed)
         {
-            SuccessfulText.text = "You did it, you successfully tapped the square!";
             Destroy(gameObject, 0.0000001f);
         }
         if (transform.position.x <= -8.74)
         {
-            SuccessfulText.text = "Oh no, the note escaped and you have now taken damage.";
+            GameObject.Find("GameController").GetComponent<Game_Controller>().ChangeHealth(-1);
             Destroy(gameObject, 0.000001f);
 
         }
     }
-
+/*
     private void OnTriggerEnter2D(Collider2D other)
     {
         canBeDestroyed = true;
+        if ( other != null )
+        {
+            OtherObject = other;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         canBeDestroyed = false;
+        if ( other != null )
+        {
+            OtherObject = null;
+        }
     }
+
+    public void DestroyOther()
+    {
+        if (OtherObject != null)
+        {
+            Destroy(OtherObject);
+        }
+
+    }
+    */
 }
