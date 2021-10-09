@@ -16,11 +16,14 @@ public class Game_Controller : MonoBehaviour
 
     public GameObject Note;
 
-    public Transform NoteSpawn;
+    public Transform NoteSpawn1, NoteSpawn2, NoteSpawn3, NoteSpawn4, NoteSpawn5;
 
     public GameObject RestartButton;
 
     public TextMeshProUGUI SuccessfulText;
+
+    [Tooltip("This is \"Beats Per Minute\" (or BPM), essentially this is how many notes are spawned per minute.")]
+    public int BPM;
 
     void Awake()
     {
@@ -37,10 +40,40 @@ public class Game_Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameObject.FindWithTag("Note") == null && Health > 0)
+        
+    }
+
+    public IEnumerator SpawnNotes()
+    {
+        yield return new WaitForSeconds(BPM / 60);
+
+        int randomNumber = Random.Range(1, 5);
+
+        switch(randomNumber)
         {
-            Instantiate(Note, NoteSpawn);
+            case 1:
+                Instantiate(Note, NoteSpawn1);
+                break;
+
+            case 2:
+                Instantiate(Note, NoteSpawn2);
+                break;
+
+            case 3:
+                Instantiate(Note, NoteSpawn3);
+                break;
+
+            case 4:
+                Instantiate(Note, NoteSpawn4);
+                break;
+
+
+            default:
+                Instantiate(Note, NoteSpawn5);
+                break;
         }
+
+        SpawnNotes();
     }
 
     public void ChangeHealth(int value)

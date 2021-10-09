@@ -199,9 +199,14 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   Health: 5
   Note: {fileID: 302156201400424813, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
-  NoteSpawn: {fileID: 302156201400424814, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
+  NoteSpawn1: {fileID: 0}
+  NoteSpawn2: {fileID: 0}
+  NoteSpawn3: {fileID: 0}
+  NoteSpawn4: {fileID: 0}
+  NoteSpawn5: {fileID: 0}
   RestartButton: {fileID: 807038933}
   SuccessfulText: {fileID: 111359427}
+  BPM: 0
 --- !u!1 &111359425
 GameObject:
   m_ObjectHideFlags: 0
@@ -1795,6 +1800,22 @@ PrefabInstance:
     - target: {fileID: 302156201400424814, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 302156201400424815, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 302156201400424815, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
+      propertyPath: m_Size.y
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 302156201400424815, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+    - target: {fileID: 302156201400424815, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7839034017822169558, guid: cab6df6c240b4ba43b108f4fbce0d11b, type: 3}
       propertyPath: SuccessfulText
