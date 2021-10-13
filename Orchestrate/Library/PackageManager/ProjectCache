@@ -5,709 +5,29 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637683538733735523
-    m_Hash: 3578706231
+      ticks: 637690778482686306
+    m_Hash: 553855661
   m_LockFileStatus:
     m_FilePath: C:/Users/sethg/Desktop/Folders/Repos/Orchestrate/Orchestrate/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637683539802877644
-    m_Hash: 1641269152
+      ticks: 637690778783626750
+    m_Hash: 1920910441
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/sethg/Desktop/Folders/Repos/Orchestrate/Orchestrate/Packages
-m_EditorVersion: 2021.1.15f1 (e767a7370072)
+m_EditorVersion: 2021.1.17f1 (03b40fe07a36)
 m_ResolvedPackages:
-- packageId: com.unity.2d.animation@6.0.4
+- packageId: com.unity.collab-proxy@1.7.1
   testable: 0
   isDirectDependency: 1
-  version: 6.0.4
+  version: 1.7.1
   source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.animation@6.0.4
-  assetPath: Packages/com.unity.2d.animation
-  name: com.unity.2d.animation
-  displayName: 2D Animation
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: 2D Animation provides all the necessary tooling and runtime components
-    for skeletal animation using Sprites.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.15-preview.1
-    - 1.0.15-preview.2
-    - 1.0.15-preview.3
-    - 1.0.15-preview.4
-    - 1.0.15-preview.5
-    - 1.0.16-preview
-    - 1.0.16-preview.1
-    - 1.0.16-preview.2
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0-preview.3
-    - 2.1.0-preview.1
-    - 2.1.0-preview.2
-    - 2.1.0-preview.4
-    - 2.1.0-preview.5
-    - 2.1.0-preview.7
-    - 2.2.0-preview.1
-    - 2.2.0-preview.4
-    - 2.2.0-preview.5
-    - 2.2.1-preview.1
-    - 2.2.1-preview.2
-    - 3.0.2
-    - 3.0.3
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.8
-    - 3.1.0
-    - 3.1.1
-    - 3.2.1
-    - 3.2.2
-    - 3.2.3
-    - 3.2.4
-    - 3.2.5
-    - 3.2.6
-    - 3.2.9
-    - 3.2.10
-    - 3.2.11
-    - 4.0.0
-    - 4.0.1
-    - 4.1.0
-    - 4.1.1
-    - 4.2.1
-    - 4.2.2
-    - 4.2.3
-    - 4.2.4
-    - 4.2.5
-    - 4.2.6
-    - 4.2.8
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.0.3
-    - 5.0.4
-    - 5.0.5
-    - 5.0.6
-    - 5.0.7
-    - 6.0.0-pre.1
-    - 6.0.0-pre.2
-    - 6.0.1
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    - 7.0.0-pre.2
-    - 7.0.0-pre.3
-    - 7.0.0
-    compatible:
-    - 6.0.4
-    - 6.0.5
-    verified: 6.0.5
-  dependencies:
-  - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.mathematics
-    version: 1.1.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  keywords:
-  - 2d
-  - animation
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637595599240000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
-    path: 
-  unityLifecycle:
-    version: 6.0.4
-    nextVersion: 
-- packageId: com.unity.2d.pixel-perfect@5.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 5.0.0
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.pixel-perfect@5.0.0
-  assetPath: Packages/com.unity.2d.pixel-perfect
-  name: com.unity.2d.pixel-perfect
-  displayName: 2D Pixel Perfect
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'The 2D Pixel Perfect package contains the Pixel Perfect Camera component
-    which ensures your pixel art remains crisp and clear at different resolutions,
-    and stable in motion.
-
-
-    It is a single component that makes all the calculations
-    needed to scale the viewport with resolution changes, removing the hassle from
-    the user. The user can adjust the definition of the pixel art rendered within
-    the camera viewport through the component settings, as well preview any changes
-    immediately in Game view by using the Run in Edit Mode feature.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview
-    - 1.0.1-preview
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    - 2.1.0
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 4.0.0
-    - 4.0.1
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.0
-    - 5.0.1
-    compatible:
-    - 5.0.0
-    - 5.0.1
-    verified: 5.0.1
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - pixel
-  - perfect
-  - 2D
-  - sprite
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637526400420000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
-    path: 
-  unityLifecycle:
-    version: 5.0.0
-    nextVersion: 
-- packageId: com.unity.2d.psdimporter@5.0.4
-  testable: 0
-  isDirectDependency: 1
-  version: 5.0.4
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.psdimporter@5.0.4
-  assetPath: Packages/com.unity.2d.psdimporter
-  name: com.unity.2d.psdimporter
-  displayName: 2D PSD Importer
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: A ScriptedImporter for importing Adobe Photoshop PSB (Photoshop Big)
-    file format. The ScriptedImporter is currently targeted for users who wants to
-    create multi Sprite character animation using Unity 2D Animation Package.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.1
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.1.0-preview.1
-    - 1.1.0-preview.3
-    - 1.2.0-preview.1
-    - 1.2.0-preview.3
-    - 1.2.0-preview.4
-    - 2.0.2
-    - 2.0.3
-    - 2.0.4
-    - 2.0.5
-    - 2.0.7
-    - 2.1.0
-    - 2.1.3
-    - 2.1.4
-    - 2.1.5
-    - 2.1.6
-    - 2.1.8
-    - 3.0.0
-    - 3.1.1
-    - 3.1.3
-    - 3.1.4
-    - 3.1.5
-    - 3.1.6
-    - 3.1.7
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.1.0
-    - 5.0.0-pre.1
-    - 5.0.0-pre.2
-    - 5.0.1
-    - 5.0.3
-    - 5.0.4
-    - 6.0.0-pre.2
-    - 6.0.0-pre.3
-    - 6.0.0-pre.4
-    - 6.0.0
-    compatible:
-    - 5.0.4
-    verified: 5.0.4
-  dependencies:
-  - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.2d.animation
-    version: 6.0.4
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.2d.animation
-    version: 6.0.4
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.modules.animation
-    version: 1.0.0
-  keywords:
-  - 2d
-  - psdimporter
-  - assetimporter
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637595600020000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
-    path: 
-  unityLifecycle:
-    version: 5.0.4
-    nextVersion: 
-- packageId: com.unity.2d.sprite@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.sprite@1.0.0
-  assetPath: Packages/com.unity.2d.sprite
-  name: com.unity.2d.sprite
-  displayName: 2D Sprite
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: Use Unity Sprite Editor Window to create and edit Sprite asset properties
-    like pivot, borders and Physics shape
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - 2d
-  - sprite
-  - sprite editor window
-  registry:
-    id: 
-    name: 
-    url: 
-    scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-- packageId: com.unity.2d.spriteshape@6.0.1
-  testable: 0
-  isDirectDependency: 1
-  version: 6.0.1
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.spriteshape@6.0.1
-  assetPath: Packages/com.unity.2d.spriteshape
-  name: com.unity.2d.spriteshape
-  displayName: 2D SpriteShape
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: SpriteShape Runtime & Editor Package contains the tooling and the
-    runtime component that allows you to create very organic looking spline based
-    2D worlds. It comes with intuitive configurator and a highly performant renderer.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.10-preview.2
-    - 1.0.11-preview
-    - 1.0.12-preview
-    - 1.0.12-preview.1
-    - 1.0.14-preview.2
-    - 2.0.0-preview.4
-    - 2.0.0-preview.5
-    - 2.0.0-preview.7
-    - 2.0.0-preview.8
-    - 2.0.0-preview.9
-    - 2.1.0-preview.2
-    - 2.1.0-preview.6
-    - 2.1.0-preview.7
-    - 2.1.0-preview.10
-    - 2.1.0-preview.11
-    - 3.0.1
-    - 3.0.2
-    - 3.0.4
-    - 3.0.5
-    - 3.0.6
-    - 3.0.7
-    - 3.0.8
-    - 3.0.9
-    - 3.0.10
-    - 3.0.11
-    - 3.0.12
-    - 3.0.13
-    - 3.0.14
-    - 3.0.15
-    - 3.0.16
-    - 3.0.17
-    - 4.0.0
-    - 4.0.1
-    - 4.0.2
-    - 4.0.3
-    - 4.1.0
-    - 4.1.1
-    - 4.1.2
-    - 4.1.3
-    - 4.1.4
-    - 4.1.5
-    - 5.0.0
-    - 5.0.1
-    - 5.0.2
-    - 5.1.0
-    - 5.1.1
-    - 5.1.2
-    - 5.1.3
-    - 5.1.4
-    - 6.0.0-pre.1
-    - 6.0.0-pre.2
-    - 6.0.0
-    - 6.0.1
-    - 7.0.0-pre.2
-    - 7.0.0-pre.3
-    - 7.0.0
-    compatible:
-    - 6.0.1
-    verified: 6.0.1
-  dependencies:
-  - name: com.unity.mathematics
-    version: 1.1.0
-  - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.2d.path
-    version: 5.0.0
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.mathematics
-    version: 1.2.1
-  - name: com.unity.2d.common
-    version: 5.0.0
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  - name: com.unity.2d.path
-    version: 5.0.0
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  keywords:
-  - 2d
-  - shape
-  - spriteshape
-  - smartsprite
-  - spline
-  - terrain2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637595600290000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: c6acc0f0e19f89c41e384fa1a602555072cbb8cc
-    path: 
-  unityLifecycle:
-    version: 6.0.1
-    nextVersion: 
-- packageId: com.unity.2d.tilemap@1.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 1.0.0
-  source: 2
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.tilemap@1.0.0
-  assetPath: Packages/com.unity.2d.tilemap
-  name: com.unity.2d.tilemap
-  displayName: 2D Tilemap Editor
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: 2D Tilemap Editor is a package that contains editor functionalities
-    for editing Tilemaps.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0
-    compatible:
-    - 1.0.0
-    verified: 1.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - 2d
-  - Tilemap
-  registry:
-    id: 
-    name: 
-    url: 
-    scopes: []
-    isDefault: 0
-    capabilities: 0
-  hasRegistry: 0
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 1.0.0
-    nextVersion: 
-- packageId: com.unity.2d.tilemap.extras@2.0.0
-  testable: 0
-  isDirectDependency: 1
-  version: 2.0.0
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.tilemap.extras@2.0.0
-  assetPath: Packages/com.unity.2d.tilemap.extras
-  name: com.unity.2d.tilemap.extras
-  displayName: 2D Tilemap Extras
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: '2D Tilemap Extras is a package that contains extra scripts for use
-    with 2D Tilemap features in Unity. These include custom Tiles and Brushes for
-    the Tilemap feature.
-
-
-    The following are included in the package:
-
-    Brushes:
-    GameObject Brush, Group Brush, Line Brush, Random Brush
-
-    Tiles: Animated
-    Tile, Rule Tile, Rule Override Tile
-
-    Other: Grid Information, Custom Rules
-    for Rule Tile'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.5.0-preview
-    - 1.6.0-preview.1
-    - 1.6.1-preview
-    - 1.6.2-preview
-    - 1.6.3-preview
-    - 1.6.4-preview
-    - 1.7.0-preview
-    - 1.8.0-preview
-    - 2.0.0-pre.1
-    - 2.0.0-pre.2
-    - 2.0.0
-    - 2.2.0
-    compatible:
-    - 2.0.0
-    - 2.2.0
-    verified: 2.0.0
-  dependencies:
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.modules.tilemap
-    version: 1.0.0
-  - name: com.unity.modules.physics2d
-    version: 1.0.0
-  - name: com.unity.2d.tilemap
-    version: 1.0.0
-  keywords:
-  - 2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637526397710000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/2d-extras.git
-    revision: dc1c26a83c330e23776675c91c2c0f22764de9c7
-    path: 
-  unityLifecycle:
-    version: 2.0.0
-    nextVersion: 
-- packageId: com.unity.collab-proxy@1.5.7
-  testable: 0
-  isDirectDependency: 1
-  version: 1.5.7
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.collab-proxy@1.5.7
+  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.collab-proxy@1.7.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -748,6 +68,10 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.8.0
     - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -759,11 +83,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
-    - 1.5.7
-    - 1.6.0
     - 1.7.1
     - 1.8.0
     - 1.9.0
+    - 1.10.2
+    - 1.11.2
+    - 1.12.5
+    - 1.13.5
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -774,7 +100,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.5.7
+    verified: 1.7.1
   dependencies:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
@@ -782,16 +108,19 @@ m_ResolvedPackages:
   - name: com.unity.nuget.newtonsoft-json
     version: 2.0.0
   keywords:
-  - vsc
-  - version
-  - control
-  - collab
-  - collaboration
-  - collaborate
-  - teams
-  - team
-  - cloud
   - backup
+  - cloud
+  - collab
+  - collaborate
+  - collaboration
+  - control
+  - plastic
+  - plasticscm
+  - source
+  - team
+  - teams
+  - version
+  - vcs
   registry:
     id: main
     name: 
@@ -804,16 +133,16 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637551413290000000
+  datePublishedTicks: 637616921650000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: f079d307344f568804d3ea6d781013135e614e45
+    revision: 30ef59f552633de9ff0401db4e73ac89982d4ac0
     path: 
   unityLifecycle:
-    version: 1.5.7
+    version: 1.7.1
     nextVersion: 
 - packageId: com.unity.ide.rider@3.0.7
   testable: 0
@@ -1292,12 +621,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-- packageId: com.unity.timeline@1.5.5
+- packageId: com.unity.timeline@1.5.6
   testable: 0
   isDirectDependency: 1
-  version: 1.5.5
+  version: 1.5.6
   source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.timeline@1.5.5
+  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.timeline@1.5.6
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -1379,7 +708,6 @@ m_ResolvedPackages:
     - 1.6.1
     - 1.6.2
     compatible:
-    - 1.5.5
     - 1.5.6
     - 1.6.0-pre.1
     - 1.6.0-pre.3
@@ -1424,16 +752,16 @@ m_ResolvedPackages:
   entitlements:
     isAllowed: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637557616440000000
+  datePublishedTicks: 637613662510000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.timeline.git
-    revision: 4bb067f24973c7cfa1e4a453615e43083ce6855d
+    revision: bba45362fa74fde39bfa14d05688da527254b39f
     path: 
   unityLifecycle:
-    version: 1.5.5
+    version: 1.5.6
     nextVersion: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
@@ -3557,177 +2885,4 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 2.0.0
-    nextVersion: 
-- packageId: com.unity.mathematics@1.2.1
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.1
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.mathematics@1.2.1
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.2.1
-    compatible:
-    - 1.2.1
-    verified: 1.2.1
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
-    path: 
-  unityLifecycle:
-    version: 1.2.1
-    nextVersion: 
-- packageId: com.unity.2d.common@5.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 5.0.0
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.common@5.0.0
-  assetPath: Packages/com.unity.2d.common
-  name: com.unity.2d.common
-  displayName: 2D Common
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: 2D Common is a package that contains shared functionalities that are
-    used by most of the other 2D packages.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 5.0.0
-    compatible:
-    - 5.0.0
-    verified: 5.0.0
-  dependencies:
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  resolvedDependencies:
-  - name: com.unity.2d.sprite
-    version: 1.0.0
-  - name: com.unity.modules.uielements
-    version: 1.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.modules.uielementsnative
-    version: 1.0.0
-  keywords:
-  - 2d
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
-    path: 
-  unityLifecycle:
-    version: 5.0.0
-    nextVersion: 
-- packageId: com.unity.2d.path@5.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 5.0.0
-  source: 1
-  resolvedPath: C:\Users\sethg\Desktop\Folders\Repos\Orchestrate\Orchestrate\Library\PackageCache\com.unity.2d.path@5.0.0
-  assetPath: Packages/com.unity.2d.path
-  name: com.unity.2d.path
-  displayName: 2D Path
-  author:
-    name: 
-    email: 
-    url: 
-  category: 2D
-  type: 
-  description: "2D Path provides tooling to edit shapes (polygons and B\xE9zier splines)
-    in EditorWindows and the SceneView."
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 5.0.0
-    compatible:
-    - 5.0.0
-    verified: 5.0.0
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - 2d
-  - path
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 0
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/2d.git
-    revision: 82ee1598c2f1270bc1081c1f908364e528335bd5
-    path: 
-  unityLifecycle:
-    version: 5.0.0
     nextVersion: 
